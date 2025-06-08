@@ -46,7 +46,7 @@ class VisualsUISubState extends BaseOptionsMenu
 			'hudType',
 			'string',
 			'Cloverfield',
-			['Cloverfield', 'Psych']);
+			['Cloverfield', 'Psych', 'Vanilla']);
 		addOption(option);
 		
 		var option:Option = new Option('Time Bar:',
@@ -63,13 +63,6 @@ class VisualsUISubState extends BaseOptionsMenu
 		'systemCursor',
 		'bool',
 		false);
-		addOption(option);
-
-		var option:Option = new Option('Rating Display',
-			'If checked, The Rating Display Will be\nVisible',
-			'ratingDisplayEnabled',
-			'bool',
-			true);
 		addOption(option);
 
 		var option:Option = new Option('Flashing Lights',

@@ -1304,19 +1304,6 @@ exposeFunction('createSprite', createSwiftSprite, "swift");
 
 		generateSong(SONG.song);
 
-		if (ClientPrefs.middleScroll){	
-			ratingDisplay = new RatingDisplay();
-		}else{
-			ratingDisplay = new RatingDisplay(600, timeBarBG.y + -15, 0.5);
-		}
-		ratingDisplay.cameras = [camHUD];
-		if (!ClientPrefs.middleScroll)
-			ratingDisplay.screenCenter(X);
-		if (ClientPrefs.middleScroll && !ClientPrefs.opponentStrums){
-			ratingDisplay.x = 100;
-		}
-		add(ratingDisplay);
-
 		playfieldRenderer = new PlayfieldRenderer(strumLineNotes, notes, this);
   		add(playfieldRenderer);
 
@@ -1383,12 +1370,14 @@ exposeFunction('createSprite', createSwiftSprite, "swift");
 		add(iconP2);
 		reloadHealthBarColors();
 
-		scoreTxt = new FlxText(0, healthBarBG.y + 36, FlxG.width, "", 20);
-		scoreTxt.setFormat(Paths.font("vcr.ttf"), 20, FlxColor.WHITE, CENTER, FlxTextBorderStyle.OUTLINE, FlxColor.BLACK);
-		scoreTxt.scrollFactor.set();
-		scoreTxt.borderSize = 1.25;
-		scoreTxt.visible = !ClientPrefs.hideHud;
-		add(scoreTxt);
+		{
+			scoreTxt = new FlxText(0, healthBarBG.y + 36, FlxG.width, "", 20);
+			scoreTxt.setFormat(Paths.font("vcr.ttf"), 20, FlxColor.WHITE, CENTER, FlxTextBorderStyle.OUTLINE, FlxColor.BLACK);
+			scoreTxt.scrollFactor.set();
+			scoreTxt.borderSize = 1.25;
+			scoreTxt.visible = !ClientPrefs.hideHud;
+			add(scoreTxt);
+		}
 
 		//botplayTxt = new FlxText(400, timeBarBG.y + 55, FlxG.width - 800, "BOTPLAY", 32);
 		botplayTxt = new FlxText(400, healthBar.y - 90, FlxG.width - 800, "BOTPLAY", 32);
@@ -2746,6 +2735,8 @@ exposeFunction('createSprite', createSwiftSprite, "swift");
 		if (songMisses <= 0 && ratingName != "?"){
 			scoreTxt.text += " [" + ratingFC + "]";
 		}
+		}else if (ClientPrefs.hudType == 'Vanilla') {
+			scoreTxt.text = 'Score: ' + FlxStringUtil.formatMoney(songScore, false, true);
 		}else{
 		scoreTxt.text = 'Score: ' + FlxStringUtil.formatMoney(songScore, false, true)
 		+ ' | Misses: ' + FlxStringUtil.formatMoney(songMisses, false, true)
@@ -3395,8 +3386,6 @@ exposeFunction('createSprite', createSwiftSprite, "swift");
 		{
 			iconP1.swapOldIcon();
 		}*/
-		
-		ratingDisplay.updateRating(ratingPercent); // use your actual rating variable here
 
 		for (i in hscriptArray) {
 			if (i.existsFunc_('onUpdate')) {
@@ -5685,8 +5674,6 @@ if (strum != null) {
 	override function beatHit()
 	{
 		super.beatHit();
-
-		ratingDisplay.beatHit(curBeat, ratingName);
 
 		if(lastBeatHit >= curBeat) {
 			//trace('BEAT HIT: ' + curBeat + ', LAST HIT: ' + lastBeatHit);
