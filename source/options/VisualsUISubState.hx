@@ -46,7 +46,7 @@ class VisualsUISubState extends BaseOptionsMenu
 			'hudType',
 			'string',
 			'Cloverfield',
-			['Cloverfield', 'Psych', 'Vanilla']);
+			['Cloverfield', 'Psych']);
 		addOption(option);
 		
 		var option:Option = new Option('Time Bar:',
