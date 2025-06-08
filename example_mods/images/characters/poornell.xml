@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="poornell.png">
+	<!-- Created with Adobe Animate version 23.0.0.407 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="down0000" x="0" y="0" width="231" height="315"/>
+	<SubTexture name="down0001" x="231" y="0" width="231" height="315"/>
+	<SubTexture name="idle0000" x="462" y="0" width="231" height="246"/>
+	<SubTexture name="left0000" x="693" y="0" width="365" height="246"/>
+	<SubTexture name="left0001" x="693" y="0" width="365" height="246"/>
+	<SubTexture name="left0002" x="1058" y="0" width="365" height="246"/>
+	<SubTexture name="left0003" x="1058" y="0" width="365" height="246"/>
+	<SubTexture name="right0000" x="1423" y="0" width="312" height="246"/>
+	<SubTexture name="right0001" x="1423" y="0" width="312" height="246"/>
+	<SubTexture name="right0002" x="1735" y="0" width="312" height="246"/>
+	<SubTexture name="right0003" x="1735" y="0" width="312" height="246"/>
+	<SubTexture name="up0000" x="0" y="315" width="241" height="303"/>
+	<SubTexture name="up0001" x="241" y="315" width="241" height="303"/>
+</TextureAtlas>

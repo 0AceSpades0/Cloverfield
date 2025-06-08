@@ -1,0 +1,17 @@
+<skins>
+    <skin name="Default" file="NOTE_assets" />
+    <skin name="Stepmania" file="NOTE_assets_Stepmania" />
+    <skin name="3D" file="NOTE_assets_3D" />
+    <skin name="Synthwave" file="NOTE_assets_Synthwave" />
+    <skin name="Mario" file="NOTE_assets_Mario" />
+    <skin name="Frozen" file="NOTE_assets_Freeze" />
+    <skin name="Neo" file="NOTE_assets_Neo" overrideSplashIndex="1" />
+    <skin name="Halloween" file="NOTE_assets_Halloween" />
+    <skin name="Luigi" file="NOTE_assets_Luigi" overrideSplashIndex="2" />
+    <skin name="Red" file="NOTE_assets-red" overrideSplashIndex="3" />
+    <skin name="Green" file="NOTE_assets-green" overrideSplashIndex="2" />
+    <skin name="Purple" file="NOTE_assets-purp" overrideSplashIndex="0" />
+    <skin name="Blue" file="NOTE_assets-bluie" overrideSplashIndex="1" />
+    <skin name="Transparent" file="NOTE_assets_Trans"/>
+    <skin name="Spike" file="NOTE_assets_Spike"/>
+</skins>

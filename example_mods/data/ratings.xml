@@ -1,0 +1,12 @@
+<ratings>
+    <rating label="You Suck!" threshold="0.2" />
+    <rating label="Shit" threshold="0.4" />
+    <rating label="Bad" threshold="0.5" />
+    <rating label="Bruh" threshold="0.6" />
+    <rating label="Meh" threshold="0.69" />
+    <rating label="Nice" threshold="0.7" />
+    <rating label="Good" threshold="0.8" />
+    <rating label="Great" threshold="0.9" />
+    <rating label="Sick!" threshold="1" />
+    <rating label="Perfect!!" threshold="1" />
+</ratings>

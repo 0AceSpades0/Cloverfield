@@ -1,0 +1,11 @@
+<skins>
+    <skin name="Default" file="splashes/noteSplashes" />
+    <skin name="Andro" file="splashes/AndroSplash" />
+    <skin name="Psych" file="splashes/PsychSplash" />
+    <skin name="Vanilla" file="splashes/baseNoteSplashes" />
+    <skin name="Vs Imposter" file="splashes/Imposter" />
+    <skin name="Andro 2" file="splashes/AndroWeirdo" />
+    <skin name="Sonic.exe" file="splashes/BloodSplash" />
+    <skin name="Aethos" file="splashes/jeffySplash" />
+    <skin name="Sparkles" file="splashes/sparkleSplashes" />
+</skins>

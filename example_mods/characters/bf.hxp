@@ -1,0 +1,9 @@
+function onCreate()
+{
+    trace('Hello Hscript! (Create)');
+}
+
+function onCreatePost()
+{
+    trace('Hello Hscript! (CreatePost)');
+}

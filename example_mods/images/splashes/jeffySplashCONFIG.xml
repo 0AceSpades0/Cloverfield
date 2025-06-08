@@ -1,0 +1,11 @@
+<noteSplash>
+	<offset x="-20" y="-10" />
+	<alpha value="1" />
+	
+	<animations>
+		<note id="0" prefix="note splash purple 1" variations="1" frameRate="24" />
+		<note id="1" prefix="note splash blue 1" variations="1" frameRate="24" />
+		<note id="2" prefix="note splash green 1" variations="1" frameRate="24" />
+		<note id="3" prefix="note splash red 1" variations="1" frameRate="24" />
+	</animations>
+</noteSplash>

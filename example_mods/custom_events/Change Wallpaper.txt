@@ -1,0 +1,5 @@
+Changes the windows wallpaper
+MUST INCLUDE FILE EXTENSIONS
+AND MUST BE IN THE ROOT IMAGES OF THE CONTENT FOLDER
+
+Value 1: The File Name

@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="intro_.png">
+	<!-- Created with Adobe Animate version 23.0.0.407 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="intro_10000" x="0" y="0" width="877" height="1181"/>
+	<SubTexture name="intro_10001" x="877" y="0" width="877" height="1181"/>
+	<SubTexture name="intro_10002" x="1754" y="0" width="877" height="1181"/>
+	<SubTexture name="intro_10003" x="2631" y="0" width="877" height="1181"/>
+	<SubTexture name="intro_10004" x="2631" y="0" width="877" height="1181"/>
+	<SubTexture name="intro_10005" x="3508" y="0" width="877" height="1181"/>
+	<SubTexture name="intro_10006" x="3508" y="0" width="877" height="1181"/>
+	<SubTexture name="intro_10007" x="4385" y="0" width="877" height="1181"/>
+	<SubTexture name="intro_10008" x="5262" y="0" width="877" height="1181"/>
+	<SubTexture name="intro_10009" x="5262" y="0" width="877" height="1181"/>
+	<SubTexture name="intro_10010" x="6139" y="0" width="877" height="1181"/>
+	<SubTexture name="intro_10011" x="6139" y="0" width="877" height="1181"/>
+	<SubTexture name="intro_10012" x="6139" y="0" width="877" height="1181"/>
+	<SubTexture name="intro_10013" x="6139" y="0" width="877" height="1181"/>
+	<SubTexture name="intro_10014" x="6139" y="0" width="877" height="1181"/>
+	<SubTexture name="intro_10015" x="7016" y="0" width="877" height="1181"/>
+	<SubTexture name="intro_10016" x="0" y="1181" width="877" height="1181"/>
+	<SubTexture name="intro_10017" x="0" y="1181" width="877" height="1181"/>
+	<SubTexture name="intro_10018" x="877" y="1181" width="877" height="1181"/>
+	<SubTexture name="intro_10019" x="877" y="1181" width="877" height="1181"/>
+	<SubTexture name="intro_10020" x="877" y="1181" width="877" height="1181"/>
+	<SubTexture name="intro_10021" x="1754" y="1181" width="877" height="1181"/>
+	<SubTexture name="intro_10022" x="1754" y="1181" width="877" height="1181"/>
+	<SubTexture name="intro_10023" x="2631" y="1181" width="877" height="1181"/>
+	<SubTexture name="intro_10024" x="2631" y="1181" width="877" height="1181"/>
+	<SubTexture name="intro_10025" x="3508" y="1181" width="877" height="1181"/>
+	<SubTexture name="intro_10026" x="3508" y="1181" width="877" height="1181"/>
+	<SubTexture name="intro_10027" x="4385" y="1181" width="877" height="1181"/>
+	<SubTexture name="intro_10028" x="4385" y="1181" width="877" height="1181"/>
+	<SubTexture name="intro_10029" x="5262" y="1181" width="877" height="1181"/>
+	<SubTexture name="intro_10030" x="5262" y="1181" width="877" height="1181"/>
+	<SubTexture name="intro_10031" x="6139" y="1181" width="877" height="1181"/>
+	<SubTexture name="intro_10032" x="3508" y="1181" width="877" height="1181"/>
+	<SubTexture name="intro_10033" x="7016" y="1181" width="877" height="1181"/>
+	<SubTexture name="intro_10034" x="0" y="2362" width="877" height="1181"/>
+	<SubTexture name="intro_10035" x="0" y="2362" width="877" height="1181"/>
+</TextureAtlas>

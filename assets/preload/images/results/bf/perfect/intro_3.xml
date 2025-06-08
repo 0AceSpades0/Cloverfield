@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="intro_3.png">
+	<!-- Created with Adobe Animate version 23.0.0.407 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="intro_30000" x="0" y="0" width="778" height="749"/>
+	<SubTexture name="intro_30001" x="0" y="0" width="778" height="749"/>
+	<SubTexture name="intro_30002" x="778" y="0" width="778" height="749"/>
+	<SubTexture name="intro_30003" x="1556" y="0" width="778" height="749"/>
+	<SubTexture name="intro_30004" x="2334" y="0" width="778" height="749"/>
+	<SubTexture name="intro_30005" x="3112" y="0" width="778" height="749"/>
+	<SubTexture name="intro_30006" x="3890" y="0" width="778" height="749"/>
+	<SubTexture name="intro_30007" x="4668" y="0" width="778" height="749"/>
+	<SubTexture name="intro_30008" x="5446" y="0" width="778" height="749"/>
+	<SubTexture name="intro_30009" x="5446" y="0" width="778" height="749"/>
+	<SubTexture name="intro_30010" x="6224" y="0" width="778" height="749"/>
+	<SubTexture name="intro_30011" x="6224" y="0" width="778" height="749"/>
+	<SubTexture name="intro_30012" x="7002" y="0" width="778" height="749"/>
+	<SubTexture name="intro_30013" x="0" y="749" width="778" height="749"/>
+	<SubTexture name="intro_30014" x="778" y="749" width="778" height="749"/>
+	<SubTexture name="intro_30015" x="1556" y="749" width="778" height="749"/>
+	<SubTexture name="intro_30016" x="2334" y="749" width="778" height="749"/>
+	<SubTexture name="intro_30017" x="3112" y="749" width="778" height="749"/>
+	<SubTexture name="intro_30018" x="3890" y="749" width="778" height="749"/>
+	<SubTexture name="intro_30019" x="4668" y="749" width="778" height="749"/>
+	<SubTexture name="intro_30020" x="5446" y="749" width="778" height="749"/>
+	<SubTexture name="intro_30021" x="6224" y="749" width="778" height="749"/>
+	<SubTexture name="intro_30022" x="7002" y="749" width="778" height="749"/>
+	<SubTexture name="intro_30023" x="0" y="1498" width="778" height="749"/>
+	<SubTexture name="intro_30024" x="778" y="1498" width="778" height="749"/>
+	<SubTexture name="intro_30025" x="1556" y="1498" width="778" height="749"/>
+	<SubTexture name="intro_30026" x="2334" y="1498" width="778" height="749"/>
+	<SubTexture name="intro_30027" x="3112" y="1498" width="778" height="749"/>
+	<SubTexture name="intro_30028" x="3112" y="1498" width="778" height="749"/>
+	<SubTexture name="intro_30029" x="3890" y="1498" width="778" height="749"/>
+	<SubTexture name="intro_30030" x="4668" y="1498" width="778" height="749"/>
+	<SubTexture name="intro_30031" x="5446" y="1498" width="778" height="749"/>
+	<SubTexture name="intro_30032" x="6224" y="1498" width="778" height="749"/>
+	<SubTexture name="intro_30033" x="7002" y="1498" width="778" height="749"/>
+	<SubTexture name="intro_30034" x="7002" y="1498" width="778" height="749"/>
+	<SubTexture name="intro_30035" x="0" y="2247" width="778" height="749"/>
+	<SubTexture name="intro_30036" x="0" y="2247" width="778" height="749"/>
+	<SubTexture name="intro_30037" x="778" y="2247" width="778" height="749"/>
+	<SubTexture name="intro_30038" x="1556" y="2247" width="778" height="749"/>
+	<SubTexture name="intro_30039" x="2334" y="2247" width="778" height="749"/>
+	<SubTexture name="intro_30040" x="2334" y="2247" width="778" height="749"/>
+	<SubTexture name="intro_30041" x="3112" y="2247" width="778" height="749"/>
+	<SubTexture name="intro_30042" x="3112" y="2247" width="778" height="749"/>
+</TextureAtlas>

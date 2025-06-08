@@ -1,0 +1,11 @@
+<noteSplash>
+	<offset x="-40" y="-90" />
+	<alpha value="1" />
+	
+	<animations>
+		<note id="0" prefix="Squirt" variations="1" frameRate="24" />
+		<note id="1" prefix="Squirt" variations="1" frameRate="24" />
+		<note id="2" prefix="Squirt" variations="1" frameRate="24" />
+		<note id="3" prefix="Squirt" variations="1" frameRate="24" />
+	</animations>
+</noteSplash>
