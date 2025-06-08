@@ -40,4 +40,6 @@ haxelib install hxcpp 4.2.1
 haxelib install munit
 haxelib git hscript-plus https://github.com/DleanJeans/hscript-plus/
 haxelib git hscript-class https://github.com/ianharrigan/hscript-ex
+haxelib install polymod 1.8.0 
+haxelib set polymod 1.8.0  
 PAUSE

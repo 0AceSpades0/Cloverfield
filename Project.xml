@@ -86,6 +86,7 @@
 	<section if="MODS_ALLOWED">
 		<assets path='example_mods' rename='content' embed='false'/>
 	</section>
+	<assets path='classes' rename='classes' embed='false'/>
 	<assets path='art/readme.txt' rename='do NOT readme.txt' />
 	<!-- <template path='mods' /> -->
 	
