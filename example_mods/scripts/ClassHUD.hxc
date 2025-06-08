@@ -1,0 +1,4 @@
+class ClassHUD extends FlxTypedGroup<FlxBasic>
+{
+
+}

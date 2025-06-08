@@ -90,6 +90,7 @@ class PlayState extends MusicBeatState
 	public static var luaExt = ".lua";
 	public static var cppExt = ".cpp";
 	public static var swiftExt = ".swift";
+	public static var classExt = ".hxc";
 	var exposure:StringMap<Dynamic> = new StringMap<Dynamic>();
 	var exposureSwift:StringMap<Dynamic> = new StringMap<Dynamic>();
 
