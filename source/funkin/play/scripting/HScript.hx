@@ -21,7 +21,6 @@ class HScript
 		set('FlxCamera', FlxCamera);
 		set('FlxTimer', FlxTimer);
 		set('FlxTween', FlxTween);
-		set('ScriptedState', ScriptableState);
 		set('FlxEase', FlxEase);
 		set('PlayState', PlayState);
 		set('game', PlayState.instance);
