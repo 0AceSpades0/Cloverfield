@@ -118,6 +118,12 @@ class HScript
 				str = libPackage + '.';
 			set(libName, Type.resolveClass(str + libName));
 		});
+		set('import', function(libName:String, ?libPackage:String = ''){
+			var str:String = '';
+			if(libPackage.length > 0)
+				str = libPackage + '.';
+			set(libName, Type.resolveClass(str + libName));
+		});
 		set('Json', Json);
 		set('Xml', Xml);
 		#if (!flash && sys)
@@ -144,6 +150,10 @@ class HScript
 				return true;
 			}
 			return false;
+		});
+
+		set('class', function(classArgs:Array<Dynamic>, ?extendingClass:Dynamic){
+			var classTxt = classArgs;
 		});
 
 		if (isFile){
